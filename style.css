@@ -55,10 +55,6 @@
             background-color: #575757;
             border-radius: 5px;
         }
-        .Meme {
-            width:8%;  /* Scales the image to 50% of its original size */
-            height: auto; /* Maintains the aspect ratio */
-        }
         div {
             color: pink;
         }
@@ -68,7 +64,7 @@
         li {
             font-size: 15px;
         }
-        stan {
+        span {
             color:aquamarine;
         }
         @media (max-width: 100px) {
@@ -81,5 +77,14 @@
             width:2.5%;  /* Scales the image to 50% of its original size */
             height: auto; /* Maintains the aspect ratio */
         }
+        .meme {
+            max-width: 100%;
+            height: auto;
+            display: block;
+          }
+        .meme {
+            width: 75px;
+            height: auto;
+          }
           
         
