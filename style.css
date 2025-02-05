@@ -55,8 +55,8 @@
             background-color: #575757;
             border-radius: 5px;
         }
-        div {
-            color: pink;
+        div:hover {
+            background-color: pink;
         }
         a {
             color:blue;
