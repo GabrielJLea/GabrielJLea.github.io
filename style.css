@@ -71,5 +71,10 @@
         stan {
             color:aquamarine;
         }
-       
+        @media (max-width: 100px) {
+            body {
+              background-color: lightgray;
+              font-size: 14px;
+            }
+          }
         
