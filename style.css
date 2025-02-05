@@ -1,0 +1,79 @@
+   
+
+      
+        
+        body {
+            background-image: url('https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Makes sure it takes the full viewport height */
+            margin: 0; /* Removes default margin */
+        }
+     
+        * {
+            color: white;
+            font-size: 30px; 
+        }
+        table {
+            width: 40%;
+            border-collapse: collapse; 
+        }
+        th, td {
+            border: .5px solid white; 
+            padding: .5px;
+            text-align: center; /
+        }
+     
+          h1 {
+            text-align: center;
+        }
+        a:hover {
+            color:aliceblue;
+        }
+        #logo {
+            width:2.5%;  /* Scales the image to 50% of its original size */
+            height: auto; /* Maintains the aspect ratio */
+        }
+        .navbar {
+            background-color: white;
+            overflow: hidden;
+            display: flex;
+            padding: 1px 20px;
+        }
+
+        /* Style the navigation links */
+        .navbar a {
+            color: blue;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .Meme {
+            width:8%;  /* Scales the image to 50% of its original size */
+            height: auto; /* Maintains the aspect ratio */
+        }
+        div {
+            color: pink;
+        }
+        a {
+            color:blue;
+        }
+        li {
+            font-size: 15px;
+        }
+        stan {
+            color:aquamarine;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+              background-color: lightblue;
+            }
+          }
+        
