@@ -77,4 +77,9 @@
               font-size: 14px;
             }
           }
+          #Bogo {
+            width:2.5%;  /* Scales the image to 50% of its original size */
+            height: auto; /* Maintains the aspect ratio */
+        }
+          
         
